@@ -1,0 +1,23 @@
+.timer {
+	font-size: 40px;
+}
+
+.buttons {
+	padding: 0;
+}
+
+.buttons li {
+	display: inline-block;
+	border: 1px solid;
+	padding: 5px;
+	list-style: none;
+}
+
+.buttons li:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.buttons li:active {
+	background-color: red;
+}

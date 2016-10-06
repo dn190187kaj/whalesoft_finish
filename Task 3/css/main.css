@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+
+}
+
+.tag-list {
+	margin-top: 50px;
+	width: 600px;
+	min-height: 45px;
+	background: lightblue;
+}
+
+.tag {
+	padding-right: 30px;
+}
+
+.hide {
+	display: none;
+}
+
+.edit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	border: 1px solid;
+}
+
+.edit:hover {
+	background-color: #fff;
+}
+
+.edit:active {
+	background-color: #000;
+	color: #fff;
+}
+
+.show {
+	background-color: lightgrey;
+}
+
+.add-list {
+	margin: 0 auto;
+	font-size: 40px;
+	text-align: center;
+}
